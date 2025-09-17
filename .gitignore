@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Virtualenvs
+.venv/
+venv/
+
+# Ray/RLlib artifacts
+checkpoint_*/
+*.pkl
+*.json
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+.python-version
+main.py
+pyproject.toml
+uv.lock
+ __pycache__/
